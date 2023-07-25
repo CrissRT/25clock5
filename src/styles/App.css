@@ -9,6 +9,7 @@
 }
 
 #border-timer {
+    min-width: 50px;
     width: 25%;
     height: 80%;
     border-radius: 20px;
@@ -23,6 +24,6 @@
     transform: scale(1.5);
 }
 
-#start_stop .bi-play-fill{
-    left: 25%;
+#start_stop .bi-pause-fill{
+    right: 25%;
 }

@@ -10,10 +10,10 @@ class TimerSession extends React.Component {
                         <p id='time-left'>{this.props.countDownSession}:{this.props.seconds}</p>
                     </div>
                 </div>
-                <div id='buttons' className='mt-2 d-flex justify-content-between align-items-center'>
+                <div id='buttons' className='mt-2 d-flex justify-content-around align-items-center'>
                     <div id="start_stop">
-                        <i className="bi bi-play-fill position-relative" onClick={() => this.props.handlePlayAndPauseForSession("button")}/>  
-                        <i className="bi bi-pause-fill" onClick={() => this.props.handlePlayAndPauseForSession("button")}/>
+                        <i className="bi bi-play-fill" onClick={() => this.props.handlePlayAndPauseForSession("button")}/>  
+                        <i className="bi bi-pause-fill position-relative" onClick={() => this.props.handlePlayAndPauseForSession("button")}/>
                     </div>
                     <i id="reset" className="bi bi-arrow-clockwise" onClick={this.props.handleReset}/>
                 </div>  
