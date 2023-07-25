@@ -251,6 +251,20 @@ class App extends React.Component {
             />
           )}
           <audio id="beep" src='https://soundbible.com/mp3/Alarm%20Clock-SoundBible.com-437257341.mp3' />
+          <div className='mt-5 d-flex justify-content-center align-items-center flex-column'>
+            <span id='author'>Made by RTCriss</span>
+            <a
+              className="button"
+              id="github-button"
+              title="Author Github"
+              target="_blank"
+              rel="noopener noreferrer"
+              href='https://github.com/CrissRT'
+              style={{color: "white"}}
+            >
+              <i className="bi bi-github text-center" />
+            </a>
+          </div>
       </>
     );
   }
